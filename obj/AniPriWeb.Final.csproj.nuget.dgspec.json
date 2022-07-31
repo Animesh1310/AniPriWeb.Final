@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\animesh\\source\\repos\\AniPri.Final\\AniPriWeb.Final\\AniPriWeb.Final.csproj": {}
+    "E:\\Project\\AniPri.Final\\AniPriWeb.Final\\AniPriWeb.Final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\animesh\\source\\repos\\AniPri.Final\\AniPriWeb.Final\\AniPriWeb.Final.csproj": {
+    "E:\\Project\\AniPri.Final\\AniPriWeb.Final\\AniPriWeb.Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\animesh\\source\\repos\\AniPri.Final\\AniPriWeb.Final\\AniPriWeb.Final.csproj",
+        "projectUniqueName": "E:\\Project\\AniPri.Final\\AniPriWeb.Final\\AniPriWeb.Final.csproj",
         "projectName": "AniPriWeb.Final",
-        "projectPath": "C:\\Users\\animesh\\source\\repos\\AniPri.Final\\AniPriWeb.Final\\AniPriWeb.Final.csproj",
+        "projectPath": "E:\\Project\\AniPri.Final\\AniPriWeb.Final\\AniPriWeb.Final.csproj",
         "packagesPath": "C:\\Users\\animesh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\animesh\\source\\repos\\AniPri.Final\\AniPriWeb.Final\\obj\\",
+        "outputPath": "E:\\Project\\AniPri.Final\\AniPriWeb.Final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
