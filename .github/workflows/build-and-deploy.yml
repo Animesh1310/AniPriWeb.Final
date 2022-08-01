@@ -5,7 +5,7 @@ on: [push]
 env:
   AZURE_WEBAPP_NAME: anipriweb # set this to your applications name
   AZURE_WEBAPP_PACKAGE_PATH: './published'
-  NETCORE_VERSION: '6.0.1'
+  NETCORE_VERSION: '6.0'
 
 jobs:
   build:
