@@ -5,14 +5,14 @@ on: [push]
 env:
   AZURE_WEBAPP_NAME: anipriweb # set this to your applications name
   AZURE_WEBAPP_PACKAGE_PATH: './published'
-  NETCORE_VERSION: '6.0'
+  NETCORE_VERSION: '6.0.x'
 
 jobs:
   build:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Setup .NET Core SDK $({env.NETCORE_VERSION})
       uses: actions/setup-dotnet@v2
