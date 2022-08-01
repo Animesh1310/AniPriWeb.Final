@@ -26,20 +26,20 @@ jobs:
       run: dotnet build --no-restore -c Release
 
     - name: Publish APP for deploy
-      run: dotnet publish --configuration Release --no-build --output  $({env.AZURE_WEBAPP_NAME}) 
+      run: dotnet publish --configuration Release --no-build --output  ./published 
     
     - name: 'Deploy to Azure web App'
       uses: azure/webapps-deploy@v2
       with: 
-        app-name: $({env.AZURE_WEBAPP_NAME})
+        app-name: 'anipriweb'
         publish-profile: $({secrets.AZURE_WEBAPP_PUBLISH_PROFILE})
-        package: $({env.AZURE_WEBAPP_PACKAGE_PATH})
+        package: './published'
         
     - name: Publish Artifact
       uses: actions/upload-artifact@v1.0.0
       with: 
         name: webapp
-        path: $({secrets.AZURE_WEBAPP_PACKAGE_PATH})
+        path: './published'
         
       
 
