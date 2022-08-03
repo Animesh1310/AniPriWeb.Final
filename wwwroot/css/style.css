@@ -147,7 +147,7 @@ h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 #header .logo a {
@@ -1445,7 +1445,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 #footer .footer-top .footer-info h3 span {
